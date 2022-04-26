@@ -7,8 +7,7 @@ const App: React.FC = () => {
   const [wines, setWines] = useState<Wine[]>([]);     //data stored here after loading
   const [optionsScatterPlot, setOptionScatterPlot] =  useState<echarts.EChartsOption>({}); //options object for plotting the scatterplot
   const [optionsBarChart, setOptionBarChart] = useState<echarts.EChartsOption>({}); //options object for plotting the barplot
-  //The wine object
- 
+  
  
   
   //loading the data

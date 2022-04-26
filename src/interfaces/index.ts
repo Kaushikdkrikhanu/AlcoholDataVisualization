@@ -1,3 +1,6 @@
+//The wine object
+ 
+
 export interface Wine {
     class: number;
     alcohol: number;
