@@ -39,12 +39,11 @@ const App: React.FC = () => {
             return wine;
           });
           setWines(mwines.slice(0, mwines.length - 1));
-          console.log(mwines.slice(0, mwines.length - 1));
         } catch (error) {
-          console.log("Text convertion error", error);
+          console.error("Text convertion error", error);
         }
       } catch (error) {
-        console.log("File open error", error);
+        console.error("File open error", error);
       }
     };
     readFile();
