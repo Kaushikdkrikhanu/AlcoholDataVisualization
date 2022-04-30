@@ -3,9 +3,10 @@ import { Wine } from "../interfaces/index";
 //return an array with values malic acid content per class
 export const average = (wines: Wine[]): number[] => {
   
-  //The total malicAcid per class in index 0,1,2 and total count per class in index 3,4,5.
-
+ 
+ 
   const total = wines.reduce(
+    //The total malicAcid per class in index 0,1,2 and total count per class in index 3,4,5.
     (prev, curr) => {
       if (curr.class === 1) {
         return [
