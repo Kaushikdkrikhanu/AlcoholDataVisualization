@@ -15,7 +15,7 @@ export const average = (wines: Wine[]): number[] => {
           prev[3]+1,
           prev[4],
           prev[5],
-        ]; //adding them in an array
+        ]; 
       } else if (curr.class === 2) {
         return [
           prev[0],
